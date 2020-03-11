@@ -23,3 +23,9 @@ class MyClass(MyABC):
     @property
     def some_property(self):
         return self._myprop
+
+
+class BadClass(MyABC):
+    pass
+
+bad = BadClass()
